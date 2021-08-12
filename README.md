@@ -1,7 +1,7 @@
 # kratos_env_config
 Repository for config issue to read configuration from environment valuable 
 
-## Environments
+## Environment
 
 * go run main.go -conf configs/
 * kratos version v2.0.3
@@ -11,6 +11,8 @@ Repository for config issue to read configuration from environment valuable
 
 ```
 export KRATOS_SCHEME="https"
+
+protoc --proto_path=. --proto_path=./third_party --go_out=paths=source_relative:. proto/config.proto
 
 go run main.go -conf configs/
 ```

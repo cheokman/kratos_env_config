@@ -11,7 +11,3 @@ data:
   database:
     driver: mysql
     source: c1:c1pwd@tcp(127.0.0.1:3306)/c1?parseTime=true
-  # redis:
-  #   addr: 127.0.0.1:6379
-  #   read_timeout: 0.2s
-  #   write_timeout: 0.2s
